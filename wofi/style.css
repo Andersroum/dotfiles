@@ -1,0 +1,65 @@
+window {
+  margin: 0px;
+  border: 2px solid rgba(223, 223, 224, 0.55);
+  border-radius: 18px;
+  background-color: rgba(20, 20, 20, 0.70);
+  font-family: monospace;
+  font-size: 14px;
+}
+
+#outer-box {
+  margin: 14px;
+  padding: 12px;
+  border-radius: 14px;
+  background-color: rgba(20, 20, 20, 0.70);
+}
+
+#input {
+  margin: 0px 0px 12px 0px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgba(60, 60, 60, 0.65);
+  color: #dfdfe0;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#inner-box {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(20, 20, 20, 0.70);
+}
+
+#entry {
+  padding: 10px 12px;
+  margin: 4px 0px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgba(223, 223, 224, 0.92);
+}
+
+#entry:selected {
+  background-color: rgba(70, 70, 70, 0.80);
+  border: 1px solid rgba(223, 223, 224, 0.60);
+  color: #dfdfe0;
+}
+
+#text {
+  color: inherit;
+}
+
+#img {
+  margin-right: 10px;
+}
+
+#entry:focus,
+#entry:selected,
+#entry:selected * {
+  outline: none;
+  outline-style: none;
+  box-shadow: none;
+}

@@ -1,0 +1,52 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 26,
+  "spacing": 10,
+
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-center": ["clock"],
+  "modules-right": [ "pulseaudio", "cpu", "memory", "tray" ],
+
+  "clock": {
+    "format": "  {:%a %d %b  %I:%M %p}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "calendar": {
+      "mode": "month",
+      "format": {
+        "today": "<span color='#92cef6'><b>{}</b></span>"
+      }
+    }
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": "󰖁 muted",
+    "scroll-step": 5
+  },
+
+  "network": {
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "󰈀 wired",
+    "format-disconnected": " no net"
+  },
+
+  "cpu": {
+    "format": "  {usage}%"
+  },
+
+  "memory": {
+    "format": "  {used:0.1f}G"
+  },
+
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% 🗲",
+    "tooltip": true,
+    "path": "/sys/class/power_supply/BAT0"
+  },
+
+  "tray": {
+    "spacing": 10
+  }
+}
