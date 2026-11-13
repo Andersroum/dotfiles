@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=btop
+Exec=alacritty -e btop
+Type=Application
+Terminal=false
+Icon=btop
+Categories=System;Monitor;

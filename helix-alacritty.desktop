@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Helix
+Exec=alacritty -e hx %F
+Type=Application
+Terminal=false
+Icon=helix
+Categories=Utility;TextEditor;
+MimeType=text/plain;

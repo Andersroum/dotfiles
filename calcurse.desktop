@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Calcurse
+Comment=Calendar and scheduling
+Exec=alacritty -e calcurse
+Icon=x-office-calendar
+Terminal=false
+Categories=Office;Calendar;

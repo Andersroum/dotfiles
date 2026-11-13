@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Shut down
+Exec=systemctl poweroff
+Type=Application
+Terminal=false
+Icon=system-shutdown
